@@ -1,6 +1,6 @@
-# 📱 iOS Course Projects – Aplicaciones Móviles para iPhone
+# 📱 iOS Course Projects – iOS Mobile Application Development
 
-**Aplicaciones Móviles para iPhone** (Code: 30025) is a hands-on, theory-practice course aimed at developing the skills to create iOS applications using **Swift** and **Xcode**.  
+**iOS Mobile Application Development** (Code: 30025) is a hands-on, theory-practice course aimed at developing the skills to create iOS applications using **Swift** and **Xcode**.  
 The course covers responsive UI design with UIKit, data persistence using Core Data, RESTful JSON API integration, background processes, notifications, animations, and geolocation features.  
 Students also learn to prepare and publish fully functional applications on the **Apple App Store** following professional standards.
 
