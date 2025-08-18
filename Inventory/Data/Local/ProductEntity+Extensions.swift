@@ -1,0 +1,20 @@
+//
+//  ProductEntity+Extensions.swift
+//  Inventory
+//
+//  Created by Andrea Torres on 19/05/25.
+//
+
+import Foundation
+
+extension ProductEntity {
+    func fromDomain(product: Product){
+        self.id = product.id
+        self.name = product.name
+        self.quantity = Int16(product.quantity)
+    }
+    
+    func toDomain() -> Product {
+        Product(id: self.id ?? UUID(), name: self.name ?? "", quantity: Int(self.quantity))
+    }
+}
